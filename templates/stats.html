@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+    {% block content %}
+        <div class="container-fluid pt-4 px-4">
+            <div class="row g-4">
+                <div class="col-sm-6 col-xl-3">
+                    <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                        <i class="bi bi-envelope-fill icon-size fa-3x text-primary"></i>
+                        <div class="ms-3">
+                            <p class="mb-2">ÖSSZES ÜZENET</p>
+                            <h6 class="mb-0">✉️ {{ total_messages }}</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                        <i class="bi bi-shield-shaded icon-size fa-3x text-primary"></i>
+                        <div class="ms-3">
+                            <p class="mb-2">ÖSSZESEN MODERÁLVA</p>
+                            <h6 class="mb-0">🛡️ {{ moderated_count }}</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                        <i class="bi bi-globe-americas icon-size fa-3x text-primary"></i>
+                        <div class="ms-3">
+                            <p class="mb-2">OLDAL LÁTOGATOTTSÁG</p>
+                            <h6 class="mb-0">👁️ {{ total_visits }} látogatás<br>👤 {{ unique_visitors }} egyedi IP-cím</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                        <i class="bi bi-info-circle icon-size fa-3x text-primary"></i>
+                        <div class="ms-3">
+                            <p class="mb-2">INFORMÁCIÓ</p>
+                            <h6 class="mb-0" style="font-size: 11px;">Tudta? Milyen nagyszerű, hogy a Flask keretrendszerrel szép és dinamikus weboldalakat lehet készíteni! Szinte hihetetlen!</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pt-4 px-4">
+            <div class="row g-4">
+                <div class="col-sm-12 col-xl-6">
+                    <div class="bg-secondary rounded h-100 p-4">
+                        <h6 class="mb-4">Statisztika az üzenetekről</h6>
+
+                        <input type="hidden" id="total-messages" value="{{ total_messages }}">
+                        <input type="hidden" id="moderated-messages" value="{{ moderated_count }}">
+
+                        <canvas id="message-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}

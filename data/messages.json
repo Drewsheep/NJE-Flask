@@ -1,0 +1,482 @@
+[
+    {
+        "name": "Teszt Elek",
+        "message": "Nagyon jó volt ez az egyetem! Jó a környék, változatos a tanítás és jó a kaja is. Mindenki segítőkész és sok barátom is lett!",
+        "ip_address": "09306941a7ed8013",
+        "time": "2025-11-24 13:03:33",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Kiss Péter",
+        "message": "Nagyon jó élmény volt itt tanulni.",
+        "ip_address": "90e3dedb4f4ef171",
+        "time": "2024-01-14 10:22:11",
+        "edited_by_admin": false,
+        "rating": 4
+    },
+    {
+        "name": "Nagy Anna",
+        "message": "Sok barátot szereztem, köszönöm!",
+        "ip_address": "5c085d364fe8b42f",
+        "time": "2024-02-05 08:44:59",
+        "edited_by_admin": true,
+        "rating": 1
+    },
+    {
+        "name": "Tóth László",
+        "message": "A tanárok segítőkészek voltak.",
+        "ip_address": "6e2be8d8acbf2d4d",
+        "time": "2024-03-22 15:12:47",
+        "edited_by_admin": true,
+        "rating": 4
+    },
+    {
+        "name": "Horváth Mária",
+        "message": "Kiváló oktatás és jó közösség.",
+        "ip_address": "e1601cd3c5831863",
+        "time": "2024-04-18 11:08:12",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Balogh Krisztián",
+        "message": "Néha túl sok a beadandó, de összességében jó.",
+        "ip_address": "f4e280fa9753e9e4",
+        "time": "2024-05-12 19:33:58",
+        "edited_by_admin": false,
+        "rating": 3
+    },
+    {
+        "name": "Szabó Lilla",
+        "message": "Nagyon szerettem a kollégiumi életet!",
+        "ip_address": "6c01364a11db125e",
+        "time": "2024-06-02 09:21:17",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Varga Roland",
+        "message": "Korrekt oktatók, modern eszközök.",
+        "ip_address": "3783183a61db18c8",
+        "time": "2024-06-28 14:55:03",
+        "edited_by_admin": true,
+        "rating": 4
+    },
+    {
+        "name": "Farkas Zsuzsa",
+        "message": "Elég nehezek a vizsgák.",
+        "ip_address": "b8a24c68fdfcc18f",
+        "time": "2024-07-10 17:13:49",
+        "edited_by_admin": false,
+        "rating": 2
+    },
+    {
+        "name": "Kovács Gergely",
+        "message": "Sok új dolgot tanultam.",
+        "ip_address": "646f2e47dcfa2d77",
+        "time": "2024-07-30 20:44:28",
+        "edited_by_admin": false,
+        "rating": 4
+    },
+    {
+        "name": "Lukács Edit",
+        "message": "A büfé nagyon jó!",
+        "ip_address": "ce2bce952081efa8",
+        "time": "2024-08-12 07:55:14",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Török Marcell",
+        "message": "Sok a beadandó, kevés az idő.",
+        "ip_address": "2129c56f72864249",
+        "time": "2024-08-25 16:33:41",
+        "edited_by_admin": true,
+        "rating": 3
+    },
+    {
+        "name": "Rácz Dóra",
+        "message": "Köszönök mindent az oktatóknak.",
+        "ip_address": "7fa5576e2dc7da72",
+        "time": "2024-09-02 12:03:57",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Oláh Károly",
+        "message": "Nagyon jó a hangulat a campuson.",
+        "ip_address": "8d2edef7717673a6",
+        "time": "2024-09-18 09:18:22",
+        "edited_by_admin": false,
+        "rating": 4
+    },
+    {
+        "name": "Papp Veronika",
+        "message": "Élmény volt itt tanulni.",
+        "ip_address": "1901c26022e43614",
+        "time": "2024-10-03 19:47:10",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Jakab Szilárd",
+        "message": "Lehetne több gyakorlati óra.",
+        "ip_address": "6ae92719cd3e1cd6",
+        "time": "2024-10-19 10:54:40",
+        "edited_by_admin": true,
+        "rating": 3
+    },
+    {
+        "name": "Molnár Eszter",
+        "message": "Köszönöm a sok segítséget!",
+        "ip_address": "541318dd92a9f3bd",
+        "time": "2024-11-11 08:41:33",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Ferenczi Tamás",
+        "message": "Nagyon jó a könyvtár.",
+        "ip_address": "83a02d5cfd755f4e",
+        "time": "2024-12-01 14:55:12",
+        "edited_by_admin": false,
+        "rating": 4
+    },
+    {
+        "name": "Gál Júlia",
+        "message": "A tanárok profik és segítőkészek.",
+        "ip_address": "8703243476e12a54",
+        "time": "2024-12-21 17:23:50",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Major Ágnes",
+        "message": "Csodás közösség!",
+        "ip_address": "62237636c51d6197",
+        "time": "2025-01-12 10:11:04",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Sipos András",
+        "message": "Sokszor túl zsúfoltak az órák.",
+        "ip_address": "fcdd37e48753b2f1",
+        "time": "2025-01-29 09:44:21",
+        "edited_by_admin": true,
+        "rating": 3
+    },
+    {
+        "name": "Juhász Petra",
+        "message": "Imádtam minden percét.",
+        "ip_address": "cf8ab85ceb1aebe0",
+        "time": "2025-02-03 13:24:10",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Boros Kitti",
+        "message": "Néha kicsit káoszos a szervezés.",
+        "ip_address": "03cde4410386ded1",
+        "time": "2025-02-17 18:33:18",
+        "edited_by_admin": true,
+        "rating": 2
+    },
+    {
+        "name": "Csernák Balázs",
+        "message": "Tetszettek a projektmunkák.",
+        "ip_address": "657f7c467211321e",
+        "time": "2025-03-02 11:18:09",
+        "edited_by_admin": false,
+        "rating": 4
+    },
+    {
+        "name": "Szűcs Lajos",
+        "message": "Nagyon jó a csapatmunka.",
+        "ip_address": "2740c18da7af2fab",
+        "time": "2025-03-14 15:49:52",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Vadász Noémi",
+        "message": "Kicsit drága minden a környéken.",
+        "ip_address": "7d548231b42f858f",
+        "time": "2025-03-28 21:35:07",
+        "edited_by_admin": false,
+        "rating": 3
+    },
+    {
+        "name": "Deák Bence",
+        "message": "Összességében elégedett vagyok.",
+        "ip_address": "f9b3ff01f7cfb04d",
+        "time": "2025-04-04 08:55:12",
+        "edited_by_admin": false,
+        "rating": 4
+    },
+    {
+        "name": "Csontos Flóra",
+        "message": "A büfé teája fantasztikusan finom.",
+        "ip_address": "7d18ceb1cc2dcad4",
+        "time": "2025-04-16 14:43:56",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Takács Gábor",
+        "message": "Jobban szerettem volna több szakmai gyakorlatot.",
+        "ip_address": "407d51a1877cf134",
+        "time": "2025-04-28 19:12:29",
+        "edited_by_admin": true,
+        "rating": 3
+    },
+    {
+        "name": "Hegedűs Emese",
+        "message": "A könyvtár csendes és jól felszerelt.",
+        "ip_address": "9cfc6dd19af84f78",
+        "time": "2025-05-04 13:08:40",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Oláh Kitti",
+        "message": "Tetszettek az interaktív órák.",
+        "ip_address": "5e893284e2b6c6f1",
+        "time": "2025-05-17 17:33:52",
+        "edited_by_admin": false,
+        "rating": 4
+    },
+    {
+        "name": "Kocsis Gellért",
+        "message": "A parkolás néha nehézkes.",
+        "ip_address": "2914ec66da758f59",
+        "time": "2025-05-29 07:41:30",
+        "edited_by_admin": true,
+        "rating": 3
+    },
+    {
+        "name": "Vincze Regina",
+        "message": "Nagyon jó társaság jött össze!",
+        "ip_address": "eda3928dbd5f6654",
+        "time": "2025-06-12 09:22:17",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Urbán Máté",
+        "message": "Picit sok a ZH.",
+        "ip_address": "8fa3a4f933d6a7f8",
+        "time": "2025-06-27 21:30:41",
+        "edited_by_admin": false,
+        "rating": 3
+    },
+    {
+        "name": "Szatmári Dániel",
+        "message": "Tetszett az infrastruktúra.",
+        "ip_address": "2993d5af02a001f2",
+        "time": "2025-07-04 12:55:33",
+        "edited_by_admin": false,
+        "rating": 4
+    },
+    {
+        "name": "Fehér Alexandra",
+        "message": "A tanárok nagyon türelmesek.",
+        "ip_address": "8f6c52e5676428cf",
+        "time": "2025-07-18 16:08:22",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Virág Orsolya",
+        "message": "Sok élményt adott ez az egyetem.",
+        "ip_address": "87d2adf0ff058d91",
+        "time": "2025-07-29 08:31:09",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Pintér Dávid",
+        "message": "Lehetne több tanulószoba.",
+        "ip_address": "4c61a97b92e01ae4",
+        "time": "2025-08-08 14:59:00",
+        "edited_by_admin": true,
+        "rating": 3
+    },
+    {
+        "name": "Kelemen Emma",
+        "message": "Tetszettek a rendezvények.",
+        "ip_address": "6fe35dceefbd5bd4",
+        "time": "2025-08-21 11:11:55",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Barta Áron",
+        "message": "A menza jobb lehetne.",
+        "ip_address": "955edbc6a8cb8adb",
+        "time": "2025-09-01 13:49:44",
+        "edited_by_admin": false,
+        "rating": 2
+    },
+    {
+        "name": "Németh Fanni",
+        "message": "Nagyon szerettem itt lenni.",
+        "ip_address": "77dadc677ce7addf",
+        "time": "2025-09-14 09:22:01",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Dudás Soma",
+        "message": "Kiváló oktatók!",
+        "ip_address": "5b86fcb19c96eb66",
+        "time": "2025-09-26 18:45:32",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Tímár Noé",
+        "message": "Sokszor sok a tananyag.",
+        "ip_address": "589873ac1e2adc03",
+        "time": "2025-10-07 12:38:52",
+        "edited_by_admin": true,
+        "rating": 3
+    },
+    {
+        "name": "Pálfy Zorka",
+        "message": "A kommunikáció sokat javult.",
+        "ip_address": "2d3c49ccdc41f7b9",
+        "time": "2025-10-16 15:44:18",
+        "edited_by_admin": false,
+        "rating": 4
+    },
+    {
+        "name": "Hardy Kristóf",
+        "message": "Több szakmai napot kérnék.",
+        "ip_address": "50e4395af465bae8",
+        "time": "2025-10-27 11:14:40",
+        "edited_by_admin": true,
+        "rating": 3
+    },
+    {
+        "name": "Lévai Virág",
+        "message": "Mindenki nagyon kedves volt.",
+        "ip_address": "8714aa1ac0618ecd",
+        "time": "2025-11-02 08:29:44",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Fülöp Attila",
+        "message": "A tanterem néha hideg volt.",
+        "ip_address": "b0e022ebc517de55",
+        "time": "2025-11-12 17:08:29",
+        "edited_by_admin": true,
+        "rating": 3
+    },
+    {
+        "name": "Kádár Judit",
+        "message": "Összességében nagyon elégedett vagyok.",
+        "ip_address": "38fa4ae5166999c8",
+        "time": "2025-11-22 13:55:05",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "György László",
+        "message": "Több közösségi program kellene.",
+        "ip_address": "8e96331ef66311f3",
+        "time": "2025-11-23 10:42:17",
+        "edited_by_admin": false,
+        "rating": 4
+    },
+    {
+        "name": "Pataki Gréta",
+        "message": "Csodás élmény volt.",
+        "ip_address": "450015007752744f",
+        "time": "2025-11-24 07:55:23",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Váradi Bence",
+        "message": "Kicsit nehéz volt az első félév.",
+        "ip_address": "e107ed2e01a77982",
+        "time": "2025-11-24 09:44:02",
+        "edited_by_admin": false,
+        "rating": 3
+    },
+    {
+        "name": "Görög Léna",
+        "message": "A mentorprogram rengeteget segített.",
+        "ip_address": "006baf80811431aa",
+        "time": "2025-11-24 10:39:55",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Halász Botond",
+        "message": "A vizsgaidőszak túl pörgős.",
+        "ip_address": "96d24c9419ef2b4b",
+        "time": "2025-11-24 11:28:32",
+        "edited_by_admin": true,
+        "rating": 3
+    },
+    {
+        "name": "Makai Dóra",
+        "message": "Nagyon jók voltak a csoporttársaim.",
+        "ip_address": "612e41465f7d5c5c",
+        "time": "2025-11-24 12:22:11",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Barna Krisztina",
+        "message": "Sok élményben volt részem.",
+        "ip_address": "fb41c2f8bc809f7d",
+        "time": "2025-11-24 13:15:10",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Sarkadi Zsolt",
+        "message": "Voltak nehéz pillanatok, de jó volt.",
+        "ip_address": "ecb6c22cf5f78f21",
+        "time": "2025-11-24 14:05:49",
+        "edited_by_admin": false,
+        "rating": 4
+    },
+    {
+        "name": "Hoffmann Luca",
+        "message": "Szerettem a szakmai tantárgyakat.",
+        "ip_address": "944dd670d5b958d4",
+        "time": "2025-11-24 14:55:30",
+        "edited_by_admin": false,
+        "rating": 4
+    },
+    {
+        "name": "Mészáros Lili",
+        "message": "Jó volt a közösség.",
+        "ip_address": "20fbe3182f19f6aa",
+        "time": "2025-11-24 15:43:12",
+        "edited_by_admin": false,
+        "rating": 5
+    },
+    {
+        "name": "Fodor Ákos",
+        "message": "A rendszerek néha lassúak voltak.",
+        "ip_address": "bc1e9699a88c9b10",
+        "time": "2025-11-24 16:21:55",
+        "edited_by_admin": true,
+        "rating": 3
+    },
+    {
+        "name": "Borbély Tímea",
+        "message": "Szép emlékeim maradtak.",
+        "ip_address": "e03f2c150b7b58a9",
+        "time": "2025-11-24 17:15:40",
+        "edited_by_admin": false,
+        "rating": 5
+    }
+]

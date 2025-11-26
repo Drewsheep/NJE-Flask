@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+    {% block content %}
+        <div class="container-fluid pt-4 px-4">
+            <div class="row g-4">
+                <div class="col-sm-12 col-md-12 col-xl-12">
+                    <div class="h-100 bg-secondary rounded p-4">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <h6 class="mb-0">Üzenet szerkesztése</h6>
+                        </div>
+                        <hr>
+                        <form action="/edit/{{ index }}" method="POST">
+                            <div class="col-sm-12 col-xl-12">
+                                <div class="bg-secondary rounded h-100">
+
+                                    <div class="form-floating">
+                                        <textarea name="message" class="form-control" id="szovegmezo" style="height: 200px;" required>{{ msg.message }}</textarea>
+                                        <label for="szovegmezo">Üzenet</label>
+                                    </div>
+
+                                    <div class="form-floating mt-3">
+                                        <select class="form-select" name="rating" id="rating">
+                                            <option value="1" {% if msg.rating == 1 %}selected{% endif %}>★</option>
+                                            <option value="2" {% if msg.rating == 2 %}selected{% endif %}>★★</option>
+                                            <option value="3" {% if msg.rating == 3 %}selected{% endif %}>★★★</option>
+                                            <option value="4" {% if msg.rating == 4 %}selected{% endif %}>★★★★</option>
+                                            <option value="5" {% if msg.rating == 5 %}selected{% endif %}>★★★★★</option>
+                                        </select>
+                                        <label for="rating">Értékelés</label>
+                                    </div>
+
+                                    <a href="/admin/" class="btn btn-primary py-2 mt-3">Vissza</a>
+                                    <button type="submit" class="btn btn-success py-2 mt-3">Mentés</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}

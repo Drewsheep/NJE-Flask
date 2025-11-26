@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+    {% block content %}
+        <div class="container-fluid pt-4 px-4">
+            <div class="row g-4">
+                <div class="col-sm-12 col-md-12 col-xl-12">
+                    <div class="h-100 bg-secondary rounded p-4">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <h6 class="mb-0">Összes üzenet: {{ total_messages }}</h6>
+                            <h6>ADMIN PANEL</h6>
+                        </div>
+                        <hr>
+                        <form action="/delete_all" method="GET" onsubmit="return confirm('Biztosan törlöd az összes üzenetet?');">
+                            <div class="col-sm-12 col-xl-12">
+                                <div class="bg-secondary rounded h-100">
+                                    <button type="submit" class="btn btn-danger py-2 mt-3">Összes üzenet törlése</button>
+                                </div>
+                            </div>
+                        </form>
+                        <hr>
+
+                        {% for msg in messages %}
+                            <div class="d-flex align-items-center border-bottom py-3">
+                                <img class="rounded-circle flex-shrink-0" src="{{ url_for('static', filename='img/guest.png') }}" alt="NJE" style="width: 50px; height: 50px;">
+                                <div class="w-100 ms-3" style="text-align: justify;">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h6 class="mb-2">{{ msg.name }} <a href="/edit/{{ loop.index0 }}" class="btn btn-primary mini-button">Szerkesztés</a>&nbsp;<a href="/delete/{{ loop.index0 }}" class="btn btn-danger mini-button" onclick="return confirm('Biztosan törlöd ezt az üzenetet?');">Törlés</a></h6>
+                                        <small>{% if msg.rating %}<span style="color: darkorange;">{% for i in range(msg.rating) %}★{% endfor %}</span>{% endif %} {% if msg.edited_by_admin %}<small style="color: white;">(Moderálta: Admin)</small>{% endif %} [{{ msg.ip_address }}] {{ msg.time }}</small>
+                                    </div>
+                                    <span>{{ msg.message }}</span>
+                                </div>
+                            </div>
+                        {% endfor %}
+
+                        <div class="d-flex align-items-center justify-content-between mt-2">
+                            {% if total_pages > 1 %}
+                                {% if page > 1 %}
+                                    <a class="mb-0" href="/admin?page=1{% if query %}&query={{ query }}{% endif %}"><< Első</a>
+                                {% endif %}
+
+                                {% if page > 1 %}
+                                    <a class="mb-0" href="/admin?page={{ page-1 }}{% if query %}&query={{ query }}{% endif %}">< Előző</a>
+                                {% endif %}
+
+                                    <a style="color: #6C7293;" class="mb-auto">{{ page }} / {{ total_pages }}</a>
+                                {% if page < total_pages %}
+                                    <a href="/admin?page={{ page+1 }}{% if query %}&query={{ query }}{% endif %}">Következő ></a>
+                                {% endif %}
+
+                                {% if page < total_pages %}
+                                    <a href="/admin?page={{ total_pages }}{% if query %}&query={{ query }}{% endif %}">Utolsó >></a>
+                                {% endif %}
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
