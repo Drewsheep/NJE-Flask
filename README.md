@@ -14,6 +14,9 @@ Ennek a projektnek az a célja, hogy a felhasználók véleményt tudjanak írni
  - 🕰️ Timestamp és egy egyedi hash megjelenítése a felhasználók neve mellett
  - 🛡️ "Admin által moderálva" jelző megjelenítése a név mellett
  - ↪️ Pagináció
+
+## 👤 Hogyan tudok bejelentkezni?
+Az alapértelmezett felhasználónév `admin`, az ehhez tartozó jelszó `admin123`.
  
  ### ℹ️ 2025/2026 - Haladó programozás
  - © 2025 Baranyai András | AEN3WU
